@@ -1,4 +1,5 @@
 ## 25. Reverse Nodes in k-Group
+### 题目描述
 
 Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.
 
@@ -16,12 +17,12 @@ For k = 2, you should return: 2->1->4->3->5
 For k = 3, you should return: 3->2->1->4->5
 
 
-## 分析
-
+### 分析
+```
 1. 依次遍历链表前K项
 2. 长度足够则逆序这K项
 3. 否则返回新的HEAD
 
 ps. 注意一些截止条件的定义
-
 ps. 用数组暂存K项链表
+```
